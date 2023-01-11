@@ -7,10 +7,10 @@ The aim of the project: Create a console app to start fundraise projects.
 
 ## Installation
 
-        
+
     After Clone
-    
-     run the script below within the directory to create the virtual environment:
+ 
+     run the script below within the clone directory to create the virtual environment:
      python3 -m venv env
 
 
@@ -20,7 +20,9 @@ The aim of the project: Create a console app to start fundraise projects.
 
      Installation Requirement :
      pip install -r requirements.txt
-
+	
+     Start Deployment server
+     
 
 ## Authors
 

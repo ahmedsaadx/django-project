@@ -1,7 +1,7 @@
 
 # Django project iti
 
-The aim of the project: Create a console app to start fundraise projects.
+This is a sample Django project that demonstrates the use of the Django web framework for building web applications..
 
 
 
@@ -22,8 +22,23 @@ The aim of the project: Create a console app to start fundraise projects.
      pip install -r requirements.txt
 	
      Start Deployment server
-     
 
+## Usage
+	You can access the application by navigating to http://127.0.0.1:8000/ in your web browser.     
+
+## Contributing
+	- Fork the repository
+	- Create your feature branch (git checkout -b my-new-feature)
+	- Commit your changes (git commit -am 'Add some feature')
+	- Push to the branch (git push origin my-new-feature)
+	- Create new Pull Request
+## License
+This project is licensed under the MIT License - see the LICENSE file for details. 
+## Acknowledgments
+
+  	- Hat tip to anyone whose code was used
+	- Inspiration
+	- etc 
 ## Authors
 
 - [@ahmedsaad](https://www.github.com/ahmedsaadx)

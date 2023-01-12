@@ -27,6 +27,7 @@ The aim of the project: Create a console app to start fundraise projects.
 ## Authors
 
 - [@ahmedsaad](https://www.github.com/ahmedsaadx)
-- [@ShroukRamadan](https://github.com/ShroukRamadan)
-
+- [@ahmedabdelkhalek](https://github.com/abdelkhalek97)
+- [@shroukramadan](https://github.com/ShroukRamadan)
+- [@salmaashraf ](https://github.com/salmashraf)
 

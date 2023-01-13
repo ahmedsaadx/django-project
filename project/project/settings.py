@@ -42,11 +42,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    "accounts.apps.AccountsConfig", #new
-    'phonenumbers', #new
-    "pages.apps.PagesConfig", #new
-    "crispy_forms",  #new
-    "crispy_bootstrap5", #new
+    "accounts.apps.AccountsConfig", 
+    'phonenumbers', 
+    "pages.apps.PagesConfig", 
+    "crispy_forms",  
+    "crispy_bootstrap5", 
+    "articles.apps.ArticlesConfig"
 ]
 
 MIDDLEWARE = [
@@ -64,7 +65,7 @@ ROOT_URLCONF = 'project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "templates"], #new
+        'DIRS': [BASE_DIR / "templates"], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -132,11 +133,11 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-AUTH_USER_MODEL = "accounts.CustomUser" #new
-AUTHENTICATION_BACKENDS = ['accounts.backends.EmailBackend'] #new
+AUTH_USER_MODEL = "accounts.CustomUser" 
+AUTHENTICATION_BACKENDS = ['accounts.backends.EmailBackend'] 
 
-LOGIN_REDIRECT_URL = "home" #new
-LOGOUT_REDIRECT_URL = "home" #new
+LOGIN_REDIRECT_URL = "home" 
+LOGOUT_REDIRECT_URL = "home" 
 
-CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" #new
-CRISPY_TEMPLATE_PACK = "bootstrap5" #new
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" 
+CRISPY_TEMPLATE_PACK = "bootstrap5" 

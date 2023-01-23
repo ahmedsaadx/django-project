@@ -12,7 +12,8 @@
         <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center
         justify-content-lg-start">
-        <a class="navbar-brand" href="{% url 'home' %}">Project</a>
+        <a class="navbar-brand" href="{% url 'home' %}">Home</a>
+        <a class="navbar-brand" href="{% url 'article_list' %}">list</a>
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center
         mb-md-0">
         {% if user.is_authenticated %}

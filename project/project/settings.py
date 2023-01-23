@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     "pages.apps.PagesConfig", 
     "crispy_forms",  
     "crispy_bootstrap5", 
-    "articles.apps.ArticlesConfig"
+    "projects.apps.ProjectsConfig"
 ]
 
 MIDDLEWARE = [
@@ -141,3 +141,5 @@ LOGOUT_REDIRECT_URL = "home"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap5" 
 CRISPY_TEMPLATE_PACK = "bootstrap5" 
+
+ALLOWED_HOSTS = ['0.0.0.0', 'localhost', '127.0.0.1','172.18.0.100']

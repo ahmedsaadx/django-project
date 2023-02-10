@@ -41,7 +41,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 	- etc 
 ## Docker Image
 ```
-docker push ahmedsaadx0/django_app:v1
+docker pull ahmedsaadx0/django_app:v1
 ```
 ## Authors
 
